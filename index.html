@@ -2,57 +2,75 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="outlines.css">
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic"
+      rel="stylesheet">
     <title>Software Developer CV</title>
   </head>
 
   <body>
     <header class="page-header">
-      mailto: mail@mail.com<br>
-      phone: +7 (xxx) xxx-xx-xx
+      <div class="container">
+        <a class="header-email" href="mailto:mail@mail.com">mail@mail.com</a>
+        <a class="header-phone" href="tel:+79876543210">+7 (987) 654-32-10</a>
+      </div>
     </header>
 
     <section class="hero-image">
-      <h1 class="heading">Irina Vasileva</h1>
-      <p>Software Developer</p>
+      <div class="container">
+        <h1 class="heading">Irina Vasileva</h1>
+        <p>Software Developer</p>
+      </div>
     </section>
 
     <section class="intro">
-      <h2 class="subheading">Greetings</h2>
-      <h3>About</h3>
-      <p>Software engineer with experience in the IT industry, working as a software developer. My daily
-        responsibilities besides direct programming include communications with the customer, supervising junior team
-        members, participating in making technical decisions.
-      </p>
-      <h3>Skills</h3>
-      <p>
-        Hard Skills:<br>
-        - Strong Java skills<br>
-        - Troubleshooting and problem-solving<br>
-        - Practical experience in back-end development using Java, Spring Boot, Spring MVC, Spring Data JPA<br>
-        - Practical skills in design and maintenance of relation databases (mostly, Oracle)<br><br>
-        Soft Skills:<br>
-        - Experience in applying Agile (SCRUM) approach in the development<br>
-        - Participation in training and adaptation of new employees<br>
-        - Participation in an adaptation of new employees<br>
-        - Nice English<br>
-        Primary skill: Java
-      </p>
+      <div class="container">
+        <h2 class="subheading">Greetings</h2>
+        <figure>
+          <img class="user-image" src="files/user.jpg" width="928" height="536" alt="Irina Vasileva">
+        </figure>
+        <h3>About</h3>
+        <p>Software engineer with experience in the IT industry, working as a software developer. My daily
+          responsibilities besides direct programming include communications with the customer, supervising junior team
+          members, participating in making technical decisions.
+        </p>
+        <h3>Skills</h3>
+        <p>
+          Hard Skills:<br>
+          - Strong Java skills<br>
+          - Troubleshooting and problem-solving<br>
+          - Practical experience in back-end development using Java, Spring Boot, Spring MVC, Spring Data JPA<br>
+          - Practical skills in design and maintenance of relation databases (mostly, Oracle)<br><br>
+          Soft Skills:<br>
+          - Experience in applying Agile (SCRUM) approach in the development<br>
+          - Participation in training and adaptation of new employees<br>
+          - Participation in an adaptation of new employees<br>
+          - Nice English<br>
+          Primary skill: Java
+        </p>
+      </div>
     </section>
 
     <section class="portfolio">
-      <h2 class="subheading">Portfolio</h2>
-
-      <h3>Сайт инструктора Кекса</h3>
-      <p>Небольшой лендинг о школе для начинающих.</p>
-
-      <h3>Блог начинающего верстальщика</h3>
-      <p>Статический блог про обучение HTML и CSS.</p>
+      <div class="container">
+        <h2 class="subheading">Portfolio</h2>
+        <h3>Сайт инструктора Кекса</h3>
+        <figure class="project-image">
+          <img src="files/project.jpg" width="928" height="536" alt="Cайт инструктора Кекса">
+        </figure>
+        <a class="button" href="source/project/index.html">Открыть страницу</a>
+        <p>My first web-site</p>
+        <h3>Блог начинающего верстальщика</h3>
+        <p>Статический блог про обучение HTML и CSS.</p>
+      </div>
     </section>
 
     <footer class="page-footer">
-      mailto: mail@mail.com<br>
-      phone: +7 (xxx) xxx-xx-xx
+      <div class="container">
+        <a class="footer-email" href="mailto:mail@mail.com">mail@mail.com</a>
+        <a class="footer-phone" href="tel:+79876543210">+7 (987) 654-32-10</a>
+      </div>
     </footer>
   </body>
 </html>
